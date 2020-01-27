@@ -1,0 +1,32 @@
+.text-input {
+    width: 92%;
+    height: 25px;
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 2px;
+    color: $grey;
+}
+
+.select-input {
+    width: 93%;
+    height: 34px;
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 2px;
+    color: $grey;
+}
+
+.submit-input {
+    width: 93%;
+    height: 34px;
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 10px;
+    background-color: $button-blue;
+    color: $white;
+    font-weight: bold;
+    border: 1px solid $button-blue;
+    border-radius: 2px;
+    margin-top: 15px;
+}

@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-auto-rows: 100vh;
+    font-size: 14px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    justify-items: center;
+    width: fit-content;
+    margin: 2% auto;
+}
+
+.price-container {
+    width: 33%;
+    text-align: center;
+    border-right: 1px solid $light-grey;
+}
+
+.price-container:nth-of-type(3) {
+    border-right: 0px;
+}
+
+.panel-container {
+    border: 1px solid $light-grey;
+    border-radius: 2px;
+}
